@@ -6,7 +6,9 @@ Below is a small take home assignment including some background reading for conv
 [Article 1](https://newatlas.com/science/colossal-woolly-mammoth-de-extinction/).   
 [Article 2](https://medlineplus.gov/genetics/understanding/genomicresearch/genomeediting/)
 
-After finishing the articles above, we’ll start off with a dictionary called amino_acids (below) and iterate over a sequence to produce the desired protein. While a typical dictionary wil have you search for a keyword and find the definition(s), a dictionary in python has a unique key that produces a value. For example, if you wanted to access the dictionary amino_acids and get the value from ATA, you would refer to `amino_acids[‘ATA’]` and get the value `I` as below
+After finishing the articles above, we’ll take this [mRNA codon to amino acid table](https://www.shsu.edu/academics/agricultural-sciences-and-engineering-technology/documents/mRNAcodonchart.pdf) and make a dictionary out of it called amino_acids. Then take amino_acids (below) and iterate over a sequence to produce the desired protein. 
+
+While a typical dictionary wil have you search for a keyword and find the definition(s), a dictionary in python has a unique key that produces a value. For example, if you wanted to access the dictionary amino_acids and get the value from ATA, you would refer to amino_acids[‘ATA’] and get the value ‘I’ as below
 ``` 
 amino_acids['ATA']
 'I' 
