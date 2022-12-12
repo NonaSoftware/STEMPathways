@@ -3,7 +3,7 @@ This is a learning assignment designed to help students learn to code in Python 
 
 Below is a small take home assignment including some background reading for converting a DNA sequence into an amino acid sequence. Remember the central dogma of biology that DNA -> RNA -> Protein
 
-[Article 1](https://newatlas.com/science/colossal-woolly-mammoth-de-extinction/).   
+[Article 1](https://newatlas.com/science/colossal-woolly-mammoth-de-extinction/)   
 [Article 2](https://medlineplus.gov/genetics/understanding/genomicresearch/genomeediting/)
 
 After finishing the articles above, we’ll take this [mRNA codon to amino acid table](https://www.shsu.edu/academics/agricultural-sciences-and-engineering-technology/documents/mRNAcodonchart.pdf) and make a dictionary out of it called amino_acids. Then take amino_acids (below) and iterate over a sequence to produce the desired protein. 
